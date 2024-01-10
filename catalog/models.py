@@ -41,6 +41,7 @@ class Tag(models.Model):
         return self.name
 
 
+
 class Goods(DateTimeStamp):
     name = models.CharField('Goods name', max_length=25, unique=True)
     url = models.URLField('URL', blank=True)
